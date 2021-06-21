@@ -86,7 +86,7 @@ layout: default
                             </tr>
                         </thead>
                         <tbody class="text-gray-600 text-md font-light font-body">
-                            {% for session in site.data.upcoming %}
+                            {% for session in site.data.upcoming.items %}
                             <tr class="border-b border-gray-200 hover:bg-gray-100">
                                 <td class="py-3 px-6 text-left whitespace-nowrap">
                                     <div class="flex items-center">
@@ -162,7 +162,7 @@ layout: default
                             </tr>
                         </thead>
                         <tbody class="text-gray-600 text-md font-light font-body">
-                            {% for session in site.data.past %}
+                            {% for session in site.data.past.items %}
                             <tr class="border-b border-gray-200 hover:bg-gray-100">
                                 <td class="py-3 px-6 text-left whitespace-nowrap">
                                     <div class="flex items-center">

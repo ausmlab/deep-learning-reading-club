@@ -1,36 +1,37 @@
-- paper: "Terrain Extraction (Review)"
-  paper-link: https://some-link-here
-  slides: https://youtube.com
-  presenter: Maryam Jameela
-  github: maryumja
-  date: 18-06-2021
-- paper: "Boundary Regularization"
-  paper-link: https://some-link-here
-  slides: https://youtube.com
-  presenter: Muhammad Kamran
-  github: Kamran-nust
-  date: 11-06-2021
-- paper: "Transformers in Vision: A Survey"
-  paper-link: https://some-link-here
-  slides: https://youtube.com
-  presenter: Afnan Ahmad 
-  github: afnanahmad
-  date: 04-06-2021
-- paper: VAE and LSTM
-  paper-link: https://some-link-here
-  slides: https://google.com
-  presenter: Zahra Arjmandi
-  github: ZahraArj
-  date: 23-04-2021
-- paper: 3D Object Detection (Paper Focused)
-  paper-link: #
-  slides: https://youtu.be/Lm5_Ig-37b8
-  presenter: Hungyju Lee
-  github: no-user
-  date: 26-03-2021
-- paper: 3D Object Detection (Detailed Review)
-  paper-link: #
-  slides: https://youtu.be/Lm5_Ig-37b8
-  presenter: Jacob Yoo
-  github: no-user
-  date: 01-04-2021
+items:
+  - paper: "Terrain Extraction (Review)"
+    paper-link: https://some-link-here
+    slides: https://youtube.com
+    presenter: Maryam Jameela
+    github: maryumja
+    date: 18-06-2021
+  - paper: "Boundary Regularization"
+    paper-link: https://some-link-here
+    slides: https://youtube.com
+    presenter: Muhammad Kamran
+    github: Kamran-nust
+    date: 11-06-2021
+  - paper: "Transformers in Vision: A Survey"
+    paper-link: https://some-link-here
+    slides: https://youtube.com
+    presenter: Afnan Ahmad 
+    github: afnanahmad
+    date: 04-06-2021
+  - paper: VAE and LSTM
+    paper-link: https://some-link-here
+    slides: https://google.com
+    presenter: Zahra Arjmandi
+    github: ZahraArj
+    date: 23-04-2021
+  - paper: 3D Object Detection (Paper Focused)
+    paper-link: #
+    slides: https://youtu.be/Lm5_Ig-37b8
+    presenter: Hungyju Lee
+    github: no-user
+    date: 26-03-2021
+  - paper: 3D Object Detection (Detailed Review)
+    paper-link: #
+    slides: https://youtu.be/Lm5_Ig-37b8
+    presenter: Jacob Yoo
+    github: no-user
+    date: 01-04-2021

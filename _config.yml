@@ -22,3 +22,4 @@ baseurl: '/deep-learning-reading-club'
 
 include:
   - assets
+  - media

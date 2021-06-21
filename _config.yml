@@ -17,8 +17,8 @@ exclude:
   - tailwind.config.js
   - netlify.toml
 
-url: 'https://ausmlab.github.io/deep-learning-reading-club'
-baseurl: ''
+url: 'https://ausmlab.github.io'
+baseurl: '/deep-learning-reading-club'
 
 include:
   - assets

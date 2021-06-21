@@ -1,12 +1,12 @@
-# backend:
-#   name: github
-#   repo: ausmlab/deep-learning-reading-club # Path to your GitHub repository
-#   branch: master
-#   base_url: https://sleepy-earth-60994.herokuapp.com/
 backend:
-  name: test-repo
+  name: github
+  repo: ausmlab/deep-learning-reading-club # Path to your GitHub repository
+  branch: master
+  base_url: https://nameless-eyrie-74667.herokuapp.com/
+# backend:
+#   name: test-repo
 media_folder: 'media'
-site_url: http://benchmark.qdrone.ausmlab.com
+site_url: https://ausmlab.github.io/deep-learning-reading-club
 collections:
   - name: "config"
     label: "Config"

@@ -19,3 +19,6 @@ exclude:
 
 url: 'https://ausmlab.github.io/deep-learning-reading-club'
 baseurl: ''
+
+include:
+  - assets

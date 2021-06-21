@@ -1,0 +1,45 @@
+# backend:
+#   name: github
+#   repo: ausmlab/deep-learning-reading-club # Path to your GitHub repository
+#   branch: master
+#   base_url: https://sleepy-earth-60994.herokuapp.com/
+backend:
+  name: test-repo
+media_folder: 'media'
+site_url: http://benchmark.qdrone.ausmlab.com
+collections:
+  - name: "config"
+    label: "Config"
+    editor:
+      preview: false
+    files:
+      - label: "Past Meetings"
+        name: "past"
+        file: "_data/past.yml"
+        fields:
+          - label: "Past Meetings"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: Paper, name: paper, widget: string}
+              - {label: Presenter, name: presenter, widget: string}
+              - {label: "Paper Link", name: paper-link, widget: string}
+              - {label: "Slides Link", name: slides, widget: string}
+              - {label: "GitHub Username", name: github, widget: string}
+              - {label: "Presentation Date", name: date, widget: date}
+      - label: "Upcoming Meetings"
+        name: "upcoming"
+        file: "_data/upcoming.yml"
+        fields:
+          - label: "Upcoming Meetings"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: Paper, name: paper, widget: string}
+              - {label: Presenter, name: presenter, widget: string}
+              - {label: "Paper Link", name: paper-link, widget: string}
+              - {label: "Slides Link", name: slides, widget: string}
+              - {label: "GitHub Username", name: github, widget: string}
+              - {label: "Presentation Date", name: date, widget: date}
+              
+      

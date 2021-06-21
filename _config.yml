@@ -18,3 +18,4 @@ exclude:
   - netlify.toml
 
 url: 'https://ausmlab.github.io/deep-learning-reading-club/'
+baseurl: ''

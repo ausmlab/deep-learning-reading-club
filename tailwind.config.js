@@ -1,8 +1,13 @@
 module.exports = {
   purge: [`_site/**/*.html`],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        logo: ['Monoton'],
+        'body': ['Avenir Next']
+      }
+    },
   },
   variants: {},
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 };

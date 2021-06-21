@@ -1,0 +1,9 @@
+- paper: Transformers
+  paper-link: https://some-link-here
+  slides: https://youtube.com
+  presenter: Afnan Ahmad 
+  github: afnanahmad
+- paper: VAE and LSTM
+  slides: https://google.com
+  presenter: Zahra Arjmandi
+  github: ZahraArj

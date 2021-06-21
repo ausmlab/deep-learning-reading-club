@@ -1,5 +1,8 @@
-title: Tailwind Jekyll Starter Kit
-description: A starter kit for using Tailwind with Jekyll
+title: Deep Learning Reading Club
+description: AUSMLab - Deep Learning Reading Club
+
+plugins:
+  - jekyll-avatar
 
 exclude:
   - Gemfile

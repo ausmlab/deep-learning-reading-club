@@ -2,4 +2,132 @@
 layout: default
 ---
 
-<h1 class="text-white text-4xl font-semibold">Jekyll Starter Tailwind</h1>
+<div class="flex flex-col text-center w-full mb-20 items-center">
+
+    <!-- title -->
+    <div class=" text-black font-body px-4 py-8">
+        <h1 class="text-4xl font-semibold">Deep Learning Reading Club - SU21</h1>
+        <p class="font-normal mt-8">The purpose of this club is help researchers understand and discuss exciting deep
+            learning papers in a collaborative setting.</p>
+    </div>
+
+
+
+    <!-- buttons -->
+    <div class="px-6 my-1 flex flex-wrap items-center">
+        <div class="p-2 ">
+            <a href="https://list.app.ausmlab.xyz/subscription/form" target="_blank"
+                class="flex items-center p-4 bg-gray-200 rounded-xl shadow-xs cursor-pointer hover:bg-gray-500 hover:text-gray-100">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:text-gray-100 fill" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <div>
+                    <p class=" text-lg font-medium ml-2">
+                        Join mailing list
+                    </p>
+
+                </div>
+            </a>
+        </div>
+        <div class="p-2">
+            <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MGpyaWgwYXRsZzhlb2lzODM4NGdxamZub2FfMjAyMTA2MTFUMTUwMDAwWiBwbzVwMm4zM2JrdWR2czBuNHU5MWJjYW04MEBn&tmsrc=po5p2n33bkudvs0n4u91bcam80%40group.calendar.google.com&scp=ALL"
+                target="_blank"
+                class="flex items-center p-4 bg-gray-200 rounded-xl shadow-xs cursor-pointer hover:bg-gray-500 hover:text-gray-100">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:text-gray-100 fill" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <div>
+                    <p class=" text-lg font-medium ml-2">
+                        Add to calendar
+                    </p>
+
+                </div>
+            </a>
+        </div>
+        <div class="p-2">
+            <a href="#"
+                class="flex items-center p-4 bg-gray-200 rounded-xl shadow-xs cursor-pointer hover:bg-gray-500 hover:text-gray-100">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:text-gray-100 fill" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                </svg>
+                <div>
+                    <p class=" text-lg font-medium ml-2">
+                        Sign up to present
+                    </p>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- component -->
+
+    <div class=" text-black font-body pt-12">
+        <h1 class="text-2xl font-semibold">Past Meetings</h1>
+    </div>
+
+    <div class="w-full m-2 overflow-x-auto">
+        <div class="min-w-screen flex items-center justify-center font-sans overflow-hidden">
+            <div class="w-full">
+                <div class="shadow-lg my-6">
+                    <table class="min-w-max w-full table-auto">
+                        <thead>
+                            <tr class="bg-gray-200 text-gray-600 uppercase text-lg leading-normal font-body">
+                                <th class="py-3 px-6 text-left">Paper</th>
+                                <th class="py-3 px-6 text-left">Slides</th>
+                                <th class="py-3 px-6 text-left">Presenter</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-gray-600 text-md font-light font-body">
+                            {% for session in site.data.sessions %}
+                            <tr class="border-b border-gray-200 hover:bg-gray-100">
+                                <td class="py-3 px-6 text-left whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        <a href="{{ session.paper-link }}" target="_blank" class="flex items-center">
+                                            <div class="mr-2 text-blue-600">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                                    viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2"
+                                                        d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                                </svg>
+                                            </div>
+                                            <span class="font-medium">{{ session.paper }}</span>
+                                        </a>
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-left">
+                                    <div class="flex items-center">
+                                        <a href='{{ session.slides }}' target="_blank" class="flex items-center">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+                                            </svg><span class="px-2 text-blue-400"> Slides</span></a>
+
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-left">
+                                    <div class="flex items-center">
+                                        <a href='https://github.com/{{ session.github }}' target="_blank"
+                                            class="flex items-center">
+                                            {% avatar user=session.github %}
+                                            <span class="pl-4">{{ session.presenter }}</span>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

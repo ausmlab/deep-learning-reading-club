@@ -1,8 +1,8 @@
 backend:
   name: github
   repo: ausmlab/deep-learning-reading-club # Path to your GitHub repository
-  branch: master
-  base_url: https://nameless-eyrie-74667.herokuapp.com/
+  branch: main
+  base_url: https://nameless-eyrie-74667.herokuapp.com
 # backend:
 #   name: test-repo
 media_folder: 'media'

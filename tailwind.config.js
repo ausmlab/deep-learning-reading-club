@@ -4,7 +4,7 @@ module.exports = {
     extend: {
       fontFamily: {
         logo: ['Monoton'],
-        'body': ['Avenir Next']
+        'body': ['Lato']
       }
     },
   },

@@ -7,25 +7,25 @@ items:
     date: 2021-06-18T04:00:00.000Z
   - paper: Boundary Regularization
     paper-link: https://some-link-here
-    slides: https://youtube.com
+    slides: https://youtu.be/wk3rome0oaA
     presenter: Muhammad Kamran
     github: Kamran-nust
     date: 2021-06-11T04:00:00.000Z
   - paper: "Transformers in Vision: A Survey"
     paper-link: https://some-link-here
-    slides: https://youtube.com
+    slides: https://youtu.be/IRM9CRiEec4
     presenter: Afnan Ahmad
     github: afnanahmad
     date: 2021-06-04T04:00:00.000Z
   - paper: VAE and LSTM
     paper-link: https://some-link-here
-    slides: https://google.com
+    slides: https://youtu.be/aFN84IM9jXo
     presenter: Zahra Arjmandi
     github: ZahraArj
     date: 2021-04-23T04:00:00.000Z
   - paper: 3D Object Detection (Detailed Review)
     paper-link: "#"
-    slides: https://youtu.be/Lm5_Ig-37b8
+    slides: https://youtu.be/N-MCBLYkg_s
     presenter: Jacob Yoo
     github: no-user
     date: 2021-04-01T04:00:00.000Z

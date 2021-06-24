@@ -1,10 +1,4 @@
 items:
-  - paper: Terrain Extraction (Review)
-    paper-link: https://some-link-here
-    slides: https://youtube.com
-    presenter: Maryam Jameela
-    github: maryumja
-    date: 2021-06-18T04:00:00.000Z
   - paper: Boundary Regularization
     paper-link: https://some-link-here
     slides: https://youtu.be/wk3rome0oaA

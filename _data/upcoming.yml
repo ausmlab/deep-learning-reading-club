@@ -6,12 +6,6 @@ items:
     presenter: Andrea
     github: no-user
     date: 2021-07-09T04:00:00.000Z
-  - paper: Polygonal Building Segmentation by Frame Field Learning (2021, CVPR)
-    slides: https://google.com
-    paper-link: https://arxiv.org/abs/2004.14875
-    presenter: Moein
-    github: no-user
-    date: 2021-06-25T04:00:00.000Z
   - paper: TBD
     slides: "#"
     paper-link: "#"

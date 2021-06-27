@@ -1,16 +1,17 @@
 items:
+  - paper: Self-Supervised Wasserstein Pseudo-Labeling for Semi-Supervised Image
+      Classification
+    slides: "#"
+    paper-link: https://openaccess.thecvf.com/content/CVPR2021/papers/Taherkhani_Self-Supervised_Wasserstein_Pseudo-Labeling_for_Semi-Supervised_Image_Classification_CVPR_2021_paper.pdf
+    presenter: Andrea
+    github: no-user
+    date: 2021-07-09T04:00:00.000Z
   - paper: Polygonal Building Segmentation by Frame Field Learning (2021, CVPR)
     slides: https://google.com
     paper-link: https://arxiv.org/abs/2004.14875
     presenter: Moein
     github: no-user
     date: 2021-06-25T04:00:00.000Z
-  - paper: TBD
-    slides: "#"
-    paper-link: "#"
-    presenter: Andrea
-    github: no-user
-    date: 2021-07-02T04:00:00.000Z
   - paper: TBD
     slides: "#"
     paper-link: "#"

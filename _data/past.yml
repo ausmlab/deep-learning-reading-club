@@ -1,4 +1,10 @@
 items:
+  - date: 2021-06-26T01:34:01.190Z
+    paper: Polygonal Building Segmentation by Frame Field Learning
+    presenter: Moein
+    paper-link: https://arxiv.org/abs/2004.14875
+    github: no-user
+    slides: https://youtu.be/TDaC_njLbDs
   - paper: Boundary Regularization
     paper-link: https://some-link-here
     slides: https://youtu.be/wk3rome0oaA
